@@ -10,20 +10,27 @@ PIL: pip install pillow
 
 ### 说明
 
-输入图片若不是方形将会根据较小边对较大边进行居中裁切。
+<del>输入图片若不是方形将会根据较小边对较大边进行居中裁切。</del>
+
+支持两种模式，第一种为居中裁剪，第二种为白色填充。
 
 ### 使用方法
 
 命令行：
 
-python main.py image_path
+```bash
+python main.py C image_path # 居中裁剪
+
+python main.py F image_path # 白色填充
+```
+
 
 也可以将这个类作为一个模块导入自己的项目：
 
 ```python
 from main import NinePictures
 
-app = NinePictures(image_path)
+app = NinePictures(image_path, image_mode)
 image_list = app.process()
 ```
 返回的`image_list`是一个`PIL.Image`的对象列表，为处理好的九张图片。
