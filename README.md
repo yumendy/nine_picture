@@ -37,13 +37,30 @@ image_list = app.process()
 
 示例：
 
-`python main.py header.png`
+`python main.py C header.png`
 
 原图：
 
 ![header.png](header.png)
 
 结果：
+
+<table>
+	<tr>
+		<td><img src="1.png" alt=""></td>
+		<td><img src="2.png" alt=""></td>
+		<td><img src="3.png" alt=""></td>
+	</tr>
+	<tr>
+		<td><img src="4.png" alt=""></td>
+		<td><img src="5.png" alt=""></td>
+		<td><img src="6.png" alt=""></td>
+	</tr><tr>
+		<td><img src="7.png" alt=""></td>
+		<td><img src="8.png" alt=""></td>
+		<td><img src="9.png" alt=""></td>
+	</tr>
+</table>
 
 |  |  | |
 |:-------------:|:-------------:|:-----:|
