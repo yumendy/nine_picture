@@ -47,23 +47,17 @@ image_list = app.process()
 
 <table>
 	<tr>
-		<td><img src="1.png" alt=""></td>
-		<td><img src="2.png" alt=""></td>
-		<td><img src="3.png" alt=""></td>
+		<td style="padding:0"><img src="1.png" alt=""></td>
+		<td style="padding:0"><img src="2.png" alt=""></td>
+		<td style="padding:0"><img src="3.png" alt=""></td>
 	</tr>
 	<tr>
-		<td><img src="4.png" alt=""></td>
-		<td><img src="5.png" alt=""></td>
-		<td><img src="6.png" alt=""></td>
+		<td style="padding:0"><img src="4.png" alt=""></td>
+		<td style="padding:0"><img src="5.png" alt=""></td>
+		<td style="padding:0"><img src="6.png" alt=""></td>
 	</tr><tr>
-		<td><img src="7.png" alt=""></td>
-		<td><img src="8.png" alt=""></td>
-		<td><img src="9.png" alt=""></td>
+		<td style="padding:0"><img src="7.png" alt=""></td>
+		<td style="padding:0"><img src="8.png" alt=""></td>
+		<td style="padding:0"><img src="9.png" alt=""></td>
 	</tr>
 </table>
-
-|  |  | |
-|:-------------:|:-------------:|:-----:|
-|![1.png](1.png)|![2.png](2.png)|![3.png](3.png)|
-|![4.png](4.png)|![5.png](5.png)|![6.png](6.png)|
-|![7.png](7.png)|![8.png](8.png)|![9.png](9.png)|
